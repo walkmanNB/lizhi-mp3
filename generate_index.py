@@ -2,7 +2,7 @@ import os
 import json
 from mutagen import File
 
-MUSIC_DIR = "music"  # 假设你的音乐放在这个文件夹
+MUSIC_DIR = "publish"  # 假设你的音乐放在这个文件夹
 library = []
 
 for root, dirs, files in os.walk(MUSIC_DIR):
