@@ -3,7 +3,7 @@ name: Auto Update Music Index
 on:
   push:
     paths:
-      - 'music/**' # 只有当你往 music 文件夹上传或修改音乐文件时才触发
+      - 'publish/**' # 只有当你往 music 文件夹上传或修改音乐文件时才触发
 
 jobs:
   update-index:
